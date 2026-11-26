@@ -1,0 +1,10 @@
+Package: com.lingdong.island
+Name: 灵动动动岛
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: 让所有 App 的通知都以原生灵动岛形态出现。安装后在「设置 → 灵动动动岛」中配置：是否替换系统横幅、展开停留时长、岛的大小与位置、触感反馈等。
+Maintainer: LingDong
+Author: LingDong
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate | ellekit, preferenceloader
+Tag: purpose::extension, compatible::ios16
